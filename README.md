@@ -1,4 +1,3 @@
-# ai_qa_bot
 # AI Q&A Bot 🤖
 
 A simple AI-powered Q&A bot built with Python and OpenAI API.
