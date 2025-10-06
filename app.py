@@ -3,7 +3,7 @@ from openai import OpenAI
 
 # --- SETUP ---
 API_KEY = "OPEN_API_KEY"
-client = OpenAI(api_key=API_KEY)
+client = OpenAI(api_key=st.secrets["OPENAI_API_KEY"])
 
 # --- Function to ask question ---
 def ask_question(question):
