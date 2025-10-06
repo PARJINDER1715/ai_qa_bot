@@ -7,7 +7,7 @@ API_KEY="OPENAI_API_KEY"
 
 # API_KEY = os.getenv("OPENAI_API_KEY")
 
-client = OpenAI(api_key="OPENAI_API_KEY")
+client = OpenAI(api_key=st.secrets["OPENAI_API_KEY"])
 
 # --- UI ---
 
